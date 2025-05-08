@@ -38,7 +38,6 @@ export default function Home() {
   }, [])
 
   
-  
    // Pagination variables
    const indexOfLastPost = currentPage * postsPerPage;
    const indexOfFirstPost = indexOfLastPost - postsPerPage;
